@@ -16,7 +16,6 @@
 - Gravidade:
 - Pressão: 3-4atm
 - Ângulo do lançamento:
-- Pressão: 3-4 atm
 - Tipo: Água e ar comprimido
 - Para o lançamento, foi utilizado:
     - Bomba de ar comum
