@@ -21,10 +21,10 @@ fig, axs = plt.subplots(1, 4, figsize=(15, 5), sharey=True, sharex=True)
 
 distance_labels = ["20,14m","22,10m", "21,26m", "17,97m"]
 
-trajectory("foguete1.dat", "#fae41b", axs[0], first_plot=True, distance=distance_labels[0])
-trajectory("foguete2.dat", "#ed79c3", axs[1], first_plot=False, distance=distance_labels[1])
-trajectory("foguete3.dat", "#070f78", axs[2], first_plot=False, distance=distance_labels[2])
-trajectory("foguete4.dat", "#5ec454", axs[3], first_plot=False, distance=distance_labels[3])
+trajectory(r"C:\Users\icjunior\Desktop\RocketPET\dados\lançamento1\lancamento.dat", "#220753", axs[0], first_plot=True, distance=distance_labels[0])
+trajectory(r"C:\Users\icjunior\Desktop\RocketPET\dados\lançamento2\lancamento.dat", "#fa6e98", axs[1], first_plot=False, distance=distance_labels[1])
+trajectory(r"C:\Users\icjunior\Desktop\RocketPET\dados\lançamento3\lancamento.dat", "#07AD60", axs[2], first_plot=False, distance=distance_labels[2])
+trajectory(r"C:\Users\icjunior\Desktop\RocketPET\dados\lançamento4\lancamento.dat", "#e77020", axs[3], first_plot=False, distance=distance_labels[3])
 
 axs[0].set_title("Trajectory 1 (P= 3-4atm)")
 axs[1].set_title("Trajectory 2 (P= 3-4atm)") 
@@ -44,5 +44,5 @@ fig.suptitle("RocketPET: McQueen", fontsize=16)
 plt.tight_layout()
 plt.subplots_adjust(top=0.85, wspace=0)
 
-plt.savefig('trajetorias_juntas.jpg')
+plt.savefig(r"C:\Users\icjunior\Desktop\RocketPET\IMAGENS\trajetorias_grafico.jpg")
 plt.show()
