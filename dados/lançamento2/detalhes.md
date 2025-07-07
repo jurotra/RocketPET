@@ -13,9 +13,8 @@
 
 ## Lançamento:
 #### Condições de lançamento:
-- Gravidade:
 - Pressão: 3-4atm
-- Ângulo do lançamento:
+- Ângulo estimado: 45º
 - Tipo: Água e ar comprimido
 - Para o lançamento, foi utilizado:
     - Bomba de ar comum
@@ -28,5 +27,7 @@
  - Tempo:
  - Velocidade Média:
  - Velocidade Inicial:
+ - Ângulo calculado:
+ - Gravidade calculada:
 
 
